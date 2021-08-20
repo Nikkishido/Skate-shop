@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    box-sizing: border-box;
+
+}
+.menu img{
+    width: 75px;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size:25px;
+    color:white;
+    display: inline-block;
+    width:19%;
+
+
+}
+.menu{
+    background-color: dodgerblue;
+    vertical-align: middle;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+.header {
+    padding: 280px 0px;
+    background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+}
+.header h1{
+    font-size:60px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+    background-color:rgba(0,0,0,0.5);
+
+}
+.about-us{
+    padding:40px;
+    text-align: center;
+}
+h2{
+    font-size:35px;
+    color: slateblue;
+    text-decoration: underline;
+    text-align: center;
+}
+.about-us img{
+    width: 200px;
+    margin: 20px 0px;
+}
+.product img{
+    width:300px
+}
+.product p {
+    font-size:50px;
+    font-weight:700;
+}
+.product a{
+    text-decoration:none;
+    font-size:30px;
+
+}
+.product{
+    text-align: center;
+    margin:20px;
+    display:inline-block;
+}
+.products{
+    text-align: center;
+}
+
+
+
+form{
+    width: 75%;
+    margin: 10px auto;
+    text-align: center;
+
+}
+input,textarea{
+    width: 50%;
+    display: block;
+    border:2px double #f63951;
+    border-radius:8px;
+    padding:10px;
+    margin:7px auto;
+    font-size:24px;
+    outline: none;
+
+}
+input[type="radio"]{
+    width:30px;
+    display: inline-block;
+
+
+}
+
+input:hover,textarea:hover{
+    width: 55%;
+}
+input[type="radio"]:hover{
+    width:30px;
+}
+input:focus,textarea:focus{
+    background-color: silver;
+}
+button{
+    background-color: rgb(96, 255, 189);
+    border-radius: 8px;
+    border:2px solid salmon;
+    padding: 15px;
+    font-size:17px;
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+
+}
+textarea{
+    resize:none;
+}
+.footer img{
+width: 25%;
+
+}
+.footer{
+    padding: 20px;
+    height:200px;
+    background-image:url(../images/bg1.jpg);
+    background-size:200px ;
+    background-repeat:repeat-x;
+    background-position-y: bottom;
+    text-align: center;
+    padding-top:100px;
+}

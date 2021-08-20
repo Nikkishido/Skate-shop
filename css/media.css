@@ -1,0 +1,28 @@
+@media(max-width:426px)
+{
+    .menu{
+        position: relative;
+
+    } 
+    
+.menu a{
+display: block;
+width:100%;
+}
+.header {
+    padding:120px 0px;
+}
+
+input,textarea{
+width: 100%;
+}
+input:hover,textarea:hover{
+    width: 100%;
+}
+.header h1{
+    font-size: 50px;
+}
+.product{
+    margin:20px 0px;
+}
+}
